@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal Profile Page of Vidhi">
+        <title>Vidhi's Profile</title>
+        <link rel="icon" href="icon.ico" type="image/x-icon">
+    </head>
+    
+    <body>
+        <center>
+            <header>
+                <h1>Welcome to My World !</h1>
+                <p>This is Vidhi Chandrakar, a Tech Enthusiast.</p>
+            </header>
+            <hr>
+    
+            <section>
+                <h2>About Me</h2>
+                <p>Hello! I’m Vidhi Chandrakar, and here’s a little Info about Me.</p>
+                <img src="Vidhi.webp" alt="Vidhi pic" width="300">
+            </section>
+            <hr>
+    
+            <section>
+                <h2>Contact Information</h2>
+                <p>Let's connect!</p>
+                <p><a href="mailto:vidhichnadrakar.77@gmail.com">Send me an email</a> | <a href="https://www.linkedin.com/in/vidhi-chandrakar-038699226">LinkedIn</a></p>
+            </section>
+            <hr>
+    
+            <section>
+                <h2>My Skills</h2>
+                <table align="center">
+                    <tr>
+                        <td>
+                            <ul style="text-align:left;">
+                                <li>	  Front End:   HTML, CSS, JavaScript, React  </li>
+                                <li>  Backend:   Java, Python  </li>
+                                <li>   Database Management:   MySQL  </li>
+                                <li> Other Skills:   MS Office, MS Word, Data Structures and Algorithms (DSA), Adaptability,Problem Solving
+                                
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <hr>
+    
+            <section>
+                <h2>Portfolio</h2>
+                <p>Take a look at some of my works.</p>
+                <p><a href= "Project1.html">Project 1</a> | <a href="Project2.html">Project 2</a></p> | <a href="Project3.html">Project 3</a></p>
+            </section>
+            <hr>
+            
+            <section>
+                <h2>Contact Me</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea><br><br>
+    
+                    <button type="submit">Send</button>                
+                </form>
+            </section>
+    
+            <footer>
+                
+                    <p>&copy; 2024 Vidhi Chandrakar. All rights reserved.</p>
+                    <p>Contact: <a href="mailto:vidhichandrakar.77@gmail.com">vidhichandrakar.77@gmail.com</a></p>
+                    <p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+                 
+            </footer>        
+        </center>
+    </body>
